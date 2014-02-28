@@ -1,4 +1,4 @@
-ELECT
+SELECT
     ml.did, 
     ml.dm,
     mi.adsourcelinkid,

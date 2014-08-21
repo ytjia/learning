@@ -2,7 +2,7 @@
 
 """
 do some verification and excercise
-paper link: http://coolshell.cn/articles/10822.html
+article link: http://coolshell.cn/articles/10822.html
 """
 
 a = 0

@@ -34,6 +34,8 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+.idea/
+target/
 
 # a hidden file created by Mac OS X
 .DS_Store

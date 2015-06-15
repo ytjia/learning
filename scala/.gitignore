@@ -18,3 +18,7 @@ project/plugins/project/
 .worksheet
 .idea
 .project
+.settings
+project
+.classpath
+

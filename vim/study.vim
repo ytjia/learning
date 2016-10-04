@@ -36,15 +36,6 @@ finish
 
 = Study
 
-:help shell<TAB>
-how can you see what *all* the commands starting with 'shell' when considering getting help
-
-:!mkdir -p %:h
-if you have a file that you can't save because its directory doesn't exist, how can you create that directory from the path component of the file?
-
-:set textwidth=78
-how do you make vim hard wrap at 78 chars?
-
 :s/\v([a-z])([A-Z])/\1_\L\2/g
 turn camelCase into snake_case
 
@@ -828,7 +819,16 @@ in normal mode, how do you move to the first non-whitespace character of the nex
 g`"
 how do you nondestructively move back to the last position when the buffer was closed
 
+:help shell<TAB>
+how can you see what *all* the commands starting with 'shell' when considering getting help
+
+:!mkdir -p %:h
+if you have a file that you can't save because its directory doesn't exist, how can you create that directory from the path component of the file?
+
 = Known
+
+:set textwidth=78
+how do you make vim hard wrap at 78 chars?
 
 :wq
 write the file and quit.  This is basically here just so that there's something in the "Known" queue.

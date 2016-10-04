@@ -7,12 +7,15 @@
 
 import os
 import sys
+import shutil
 
 def rm_specific_dir(top, dir_name):
     for root, dirs, files in os.walk(top, topdown=False):
         for name in dirs:
             if name == dir_name:
-                os.rmdir(os.path.join(root, name))
+                # os.rmdir(os.path.join(root, name))
+                # 文件夹内不为空时
+                shutil.rmtree(os.path.join(root, name))
 
 
 if __name__ == '__main__':
